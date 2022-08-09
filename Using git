@@ -114,6 +114,12 @@ line added from giithub
 13. $git merge extras
 		merge whatever is in extras branch to the main branch
 
+		$ git commit -am "fixed merge conflits"
+
+
+		14.forking
+		15.Hosting website on github
+
 
 
 
