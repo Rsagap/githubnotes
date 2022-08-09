@@ -33,6 +33,24 @@ Steps
 	why have multiple steps:
 		Such that i my woring with very large file and wanna save changes made to 3 files only, instread of commiting all the file, i wanna say these are the only 3 files i wanna commit and have made changes.
 
+	$ git add hello.html
 
+	$ git commit -m "my first commit"
+
+
+6. If you notice in your github the file is not there on github
+
+
+	These changes were only saved to my local copy, inorder to make changes to the github
+
+	$ git status
+
+
+
+
+
+
+
+	
 
 
