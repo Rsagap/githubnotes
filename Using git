@@ -3,8 +3,13 @@ Github Notes
 	$git clone <url>
 	$git add <filename>
 	$git commit -m "message"
+		git commit -am "message"
+		a- all of the files
+		m- message
 	$git status
 	$git push
+
+	$git pull
 
 What git is used for:
 Keep track of changes to the code
@@ -54,10 +59,16 @@ Steps
 7. $ git push
 		whatever changes were made will be pushed to the github
 
-8 Commit all of the file 
+8. Commit all of the file 
 	$ git commit -am "add extra lines"
 	a- all of the files
 	m-message
+
+
+9. $git pull
+
+	Maybe the version on github is more updated than i have, in that case i want to download the newest version of the file
+
 
 
 
