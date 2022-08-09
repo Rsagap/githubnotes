@@ -1,0 +1,38 @@
+Github Notes
+
+What git is used for:
+Keep track of changes to the code
+
+Create a file -> add a line -> remove a line
+
+Synchronize code between different people.
+
+Test changes to the code without losing the original.
+
+Revert back to original version of code.
+
+For Mac
+
+Steps
+
+1. Create a new repository at github.com/new
+
+2. Once you create empty repository clone to local machine with
+			git clone <url>
+
+3. $ cd Desktop/Softwarica\ Codes/
+   $ git clone https://github.com/Saagar-afk/githubnotes.git
+   $ cd githubnotes
+
+4. Create a new file inside githubnotes "hello.html"
+
+5. Commiting the code(Tanking snapshots of the current version of a file)
+		git add <filename>
+		keep track of <filename> file, such that when i commit it next time the file will be added.
+
+	why have multiple steps:
+		Such that i my woring with very large file and wanna save changes made to 3 files only, instread of commiting all the file, i wanna say these are the only 3 files i wanna commit and have made changes.
+
+
+
+
