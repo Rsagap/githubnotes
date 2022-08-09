@@ -45,12 +45,16 @@ Steps
 
 	$ git status
 
+7. $ git push
+		whatever changes were made will be pushed to the github
+
+		
 
 
 
 
 
 
-	
+
 
 
