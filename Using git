@@ -11,6 +11,9 @@ Github Notes
 
 	$git pull
 
+	$git log
+	$git reset
+
 What git is used for:
 Keep track of changes to the code
 
@@ -75,7 +78,43 @@ line added from giithub
 
 	Merge Conflicts
 
-		pushing the edited file
+		pulling github changed code to locally commited code in same line 
+
+
+10. $ git log
+	
+	History of all the logs
+
+11. $ git reset
+		
+		$ git reset --hard <commit>
+		$ git reset --hard origin/master
+
+		reset your local version to githubs version
+
+12. Branching
+	
+	master - stable version from where the branches form
+		eg:
+			feature(branch)
+	head - where you are currently at
+
+	$ git branch
+		which branch i am currently on have * at the front(head), and displayes all the branches
+
+
+		$ git checkout 
+			(to change branches)
+		$ git checkout -b styles
+				-b Create a new branch
+		$ git checkout main
+			(Change to main branch)
+
+
+13. $git merge extras
+		merge whatever is in extras branch to the main branch
+
+
 
 
 
