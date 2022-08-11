@@ -1,4 +1,15 @@
 Github Notes
+
+Basics --------------------
+	clone it
+		$git clone <url>
+	add edited file
+		$git add <filename>
+	commit it 
+		$git commit -m "message"
+	push it
+		$git push
+	--------------------
 	
 	$git clone <url>
 	$git add <filename>
