@@ -1,6 +1,6 @@
 Github Notes
 
-Basics --------------------
+				---BASICS---
 	clone it
 		$git clone <url>
 	add edited file
@@ -38,22 +38,27 @@ Revert back to original version of code.
 
 For Mac
 
-Steps
+                    ---STEPS---
 
 1. Create a new repository at github.com/new
 
 2. Once you create empty repository clone to local machine with
 			git clone <url>
 
-3. $ cd Desktop/Softwarica\ Codes/
+3. Clone your repository to the local machine with 
    $ git clone https://github.com/Saagar-afk/githubnotes.git
+   
+   in my case the directory name is githubnotes, lets get inside the directory with
    $ cd githubnotes
 
-4. Create a new file inside githubnotes "hello.html"
+4. Create a new file inside githubnotes "hello.html" 
+	$touch hello.html
+	I my using touch command to create a new file
+	
 
-5. Commiting the code(Tanking snapshots of the current version of a file)
+5. Commiting the code(Taking snapshots of the current version of a file)
 		git add <filename>
-		keep track of <filename> file, such that when i commit it next time the file will be added.
+	keep track of <filename> file, such that when i commit it next time the file will be added such that when i push it next time it will be uploaded to github.
 
 	why have multiple steps:
 		Such that i my woring with very large file and wanna save changes made to 3 files only, instread of commiting all the file, i wanna say these are the only 3 files i wanna commit and have made changes.
@@ -63,28 +68,27 @@ Steps
 	$ git commit -m "my first commit"
 
 
-6. If you notice in your github the file is not there on github
-
-
-	These changes were only saved to my local copy, inorder to make changes to the github
+6. If you notice in your github the file is not there on github.
+   These changes were only saved to my local copy, inorder to make changes to the github we have to push it to github, we will see that in next step. 
+   Lets check the status of the file with
 
 	$ git status
 
 7. $ git push
-		whatever changes were made will be pushed to the github
+	Pushing the commited files to the github.
+	
 
-8. Commit all of the file 
+			-------------EXTRAS--------------
+
+8. Commit all of the file with
 	$ git commit -am "add extra lines"
-	a- all of the files
-	m-message
+   a- all of the files
+   m-message
 
 
 9. $git pull
-
-	Maybe the version on github is more updated than i have, in that case i want to download the newest version of the file
-
-
-
+   Maybe the version on github is more updated than i have, in that case i want to download the newest version of the file
+---------------------
 line added from giithub
 
 	Merge Conflicts
